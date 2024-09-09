@@ -1,9 +1,4 @@
 @import url("./fields/index.css");
-#birth-file {
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
 
 form {
   margin-top: 3rem;
@@ -12,7 +7,7 @@ form {
 fieldset {
   border: none;
 
-  displa: grid;
+  display: grid;
   gap: 1.5rem;
 }
 
