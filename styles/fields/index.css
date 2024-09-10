@@ -55,7 +55,7 @@ select {
     calc(100% - 1rem);
 }
 
-.address .flex {
+#address .flex {
   gap: 1.25rem;
 }
 
