@@ -25,5 +25,9 @@ button {
       color: var(--text-highlight);
       outline: 0.25rem solid var(--surface-secondary);
     }
+
+    @media (width < 80em) {
+      margin-left: 0;
+    }
   }
 }

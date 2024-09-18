@@ -28,6 +28,10 @@ body {
 
   font: var(--text);
   color: var(--text-secondary);
+
+  @media (width < 80em) {
+    overflow: auto;
+  }
 }
 
 h1,
@@ -50,4 +54,14 @@ img {
 
 .flex-2 {
   flex: 2;
+}
+
+@media (width < 80em) {
+  .desktop-only {
+    display: none;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
 }
